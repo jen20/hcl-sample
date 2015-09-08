@@ -2,10 +2,11 @@ package config
 
 import (
 	"fmt"
+	"log"
+
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/hcl"
 	hclObj "github.com/hashicorp/hcl/hcl"
-	"log"
 )
 
 type Config struct {
