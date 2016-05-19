@@ -46,7 +46,7 @@ func TestConfigParsing(t *testing.T) {
 }
 
 const testConfig = `region = "us-west-2"
-region = "something"
+access_key = "something"
 secret_key = "something_else"
 bucket = "backups"
 
